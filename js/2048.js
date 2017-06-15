@@ -86,7 +86,7 @@ G2048.prototype = {
         var i, j, len, index;
         var ableArr = [];
         if (this.moveAble != true) {
-            console.log('不能增加新格子，请尝试其他方向移动！');
+            //console.log('不能增加新格子，请尝试其他方向移动！');
             return;
         }
         for (i = 0; i < 4; i++) {
@@ -306,14 +306,3 @@ function getRandom(n) {
 
 var g = new G2048();
 g.init();
-
-
-
-
-// 剩下的问题：
-// 1.一次把一排加完了的问题。
-// 2.随机出现下一位的循环问题。连续按键的问题 已ok.
-// 3.某些情况下应该不能出现新的的问题。
-// 4.判输。
-// 5.样式。
-// 6.计分。

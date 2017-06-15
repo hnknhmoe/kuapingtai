@@ -1,0 +1,1 @@
+onclick="{location.href='2048.html'
